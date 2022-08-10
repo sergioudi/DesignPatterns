@@ -61,6 +61,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChainOfResponsibility", "Ch
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility", "Behavioral\ChainOfResponsibility\ChainOfResponsibility.csproj", "{3F983F8E-7AC0-424C-B66A-6B52D3E83723}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Command", "Command", "{3364BED4-658A-4649-B6D6-62A3ACB9F8D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command", "Behavioral\Command\Command.csproj", "{D4C1FF09-CB8F-4C7E-8BE4-13718601FBD1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -119,6 +123,10 @@ Global
 		{3F983F8E-7AC0-424C-B66A-6B52D3E83723}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F983F8E-7AC0-424C-B66A-6B52D3E83723}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F983F8E-7AC0-424C-B66A-6B52D3E83723}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4C1FF09-CB8F-4C7E-8BE4-13718601FBD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4C1FF09-CB8F-4C7E-8BE4-13718601FBD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4C1FF09-CB8F-4C7E-8BE4-13718601FBD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4C1FF09-CB8F-4C7E-8BE4-13718601FBD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -150,6 +158,8 @@ Global
 		{BFA1708F-5356-4060-9D89-A1B73CC4EABF} = {282E3C90-C58B-428B-A8A1-C1875F549B81}
 		{14AF9F5B-0F86-4ED6-862C-BDF6DE526E1B} = {634B3B4E-DAFB-4ED2-B887-8D5657267C0F}
 		{3F983F8E-7AC0-424C-B66A-6B52D3E83723} = {14AF9F5B-0F86-4ED6-862C-BDF6DE526E1B}
+		{3364BED4-658A-4649-B6D6-62A3ACB9F8D0} = {634B3B4E-DAFB-4ED2-B887-8D5657267C0F}
+		{D4C1FF09-CB8F-4C7E-8BE4-13718601FBD1} = {3364BED4-658A-4649-B6D6-62A3ACB9F8D0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B9E40BA8-D5F7-4661-863D-8C287C5E8396}
